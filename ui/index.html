@@ -1,17 +1,26 @@
 <!doctype html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+<title>**Srum Master**</title>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="js/login.js"></script>
+</head>
+<body>
+<div class="login-page">
+  <div class="form">
+    	<form>
+		  <img class="img" src="images/sample_img.jpg"  />
+		  <h2>Srum Master</h2>
+	</form>
+  
+    <form class="login-form" action="/login" method="POST">
+	  
+      <input type="text" name = "username" id="username" placeholder="User Name"/>
+      <input type="password" name = "password" id="password" placeholder="Password"/>
+      <button type="submit" id="submit" >login</button>
+      <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+    </form>
+  </div>
+</div>
+</body>
 </html>
